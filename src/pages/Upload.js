@@ -108,7 +108,7 @@ function Upload({ onMediaUpload }) {
     // Receive headers as parameter
     try {
       await axios.post(
-        "http://localhost:2051/upload",
+        "https://media-app-api.vercel.app/upload",
         {
           title,
           description,

@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:2051/api/auth/login", {
+      const res = await axios.post("https://media-app-api.vercel.app/api/auth/login", {
         email,
         password,
       });

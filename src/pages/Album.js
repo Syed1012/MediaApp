@@ -26,7 +26,7 @@ function Album() {
     const fetchMediaData = async () => {
       try {
         const token = localStorage.getItem("token"); // Retrieve the token here
-        const response = await axios.get("http://localhost:2051/media", {
+        const response = await axios.get("https://media-app-api.vercel.app/media", {
           headers: {
             Authorization: token,
           },
