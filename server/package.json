@@ -3,11 +3,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Media app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "client": "npm start --prefix ../media_app",
     "dev": "concurrently \"npm run server\" \"npm start --prefix ../media_app\""
   },
