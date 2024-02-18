@@ -1,0 +1,58 @@
+.card {
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 10px;
+  box-shadow: 0px 10px 8px #999;
+  padding: 20px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  margin: 70px;
+}
+
+.card:hover {
+  background-color: #4d3f72;
+  color: #ffff;
+  transition: ease-in-out 0.5s;
+}
+
+.card .CardImg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .CardTitle {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 0.5rem 5%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card .card-description {
+  margin: 20px;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* New styles for video card */
+.video-card {
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 10px;
+  box-shadow: 0px 10px 8px #999;
+  max-width: 250px;
+  display: inline-block;
+  margin: 70px;
+}
+
+.video-card video {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.video-card .card-info {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
