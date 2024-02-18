@@ -6,8 +6,6 @@ import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import Media from "./models/Media.js";
 import cors from "cors";
-import bcrypt from "bcrypt";
-import User from "./models/User.js";
 import authRoutes from "./routes/auth.js";
 import verifyToken from "./middleware/verifyToken.js";
 
@@ -26,6 +24,12 @@ app.use(cors());
 
 // In-memory storage for session-specific media data
 let sessionMediaData = [];
+
+
+app.get("/", (req, res)=>{
+  res.send("It's working");
+})
+
 
 // Route to handle media uploads
 app.post("/upload", verifyToken, async (req, res) => {
@@ -76,7 +80,7 @@ app.get("/media", (req, res) => {
 app.use("/api/auth", authRoutes);
 
 // Port
-const PORT = process.env.PORT || 5010;
+const PORT = 5010;
 
 // Listen to the port
 app.listen(PORT, () => {
