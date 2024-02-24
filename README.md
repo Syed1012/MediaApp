@@ -4,6 +4,9 @@ This is an Mini React Project, It is used to upload data like Videos, images to 
 
 Media Hub is a web application that allows users to upload and manage their media content. It leverages [Cloudinary](https://cloudinary.com/) for storing uploaded data and utilizes MongoDB to store user information and uniquely associate uploaded content.
 
+<h3> To view <a href="https://media-app-eight.vercel.app/">Click-Here</a></h3>
+<h5>Email- daka@gma || Password- 12345</h5>
+
 ## Features
 
 - **User Authentication:** Media Hub ensures a secure environment by implementing user authentication, allowing users to have a personalized experience.
