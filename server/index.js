@@ -25,7 +25,6 @@ app.use(cors());
 // In-memory storage for session-specific media data
 let sessionMediaData = [];
 
-
 app.get("/", (req, res)=>{
   res.send("It's working");
 })
