@@ -1,6 +1,6 @@
 # Media Hub
 
-This is an Mini React Project, It is used to upload data like Videos, images to Cloudinary [Useful for upload and download of videos and images] and Mongo for storing each user and authentication for login and register with their respective data like description and project Name. 
+This is an Mini React Project, It is used to upload data like Videos, images to Cloudinary [Useful for upload and download of videos and images] and Mongo for storing each user data and auth for login and register & can access their respective data like description and images, videos uploaded. 
 
 Media Hub is a web application that allows users to upload and manage their media content. It leverages [Cloudinary](https://cloudinary.com/) for storing uploaded data and utilizes MongoDB to store user information and uniquely associate uploaded content.
 
